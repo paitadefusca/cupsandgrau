@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cuphead</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body class="bg">
+	<header>
+		<div class="caixa">
+		<h1 class="titulo-principal">Cuphead</h1>
+		<img class="imagem-principal" src="cuphead.png" width="250" height="250">
+    <nav>
+      <ul>
+        <li><a href="index.html">Contato</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="premios.html">Premiações</a></li>
+      </ul>
+    </nav>
+		</div>
+	</header>
+
+    
+    <main>
+    <h3 class="h3"> Contato </h3>
+
+    <form>
+
+        <label for="nomesobrenome"> Nome e Sobrenome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+        <label for="email"> Email</label>
+        <input type="email" id="email" class="input-padrao"required placeholder="seuemail@dominio.com">
+
+        <label for="telefone"> Telefone</label>
+        <input type="tel" id="telefone" class="input-padrao"required placeholder="(XX) XXXXX-XXXX">
+
+        <label for="mensagem"> Mensagem</label>
+        <textarea  cols="70" rows="10" id="mensagem" class="input-padrao" required> </textarea>
+
+
+        <fieldset>
+          <legend>Como prefere o nosso contato?</legend>
+          <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Qual horário você mais joga?</legend>
+          <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+          </select>
+        </fieldset>
+
+     <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+      <table>
+      <thead>
+             <tr>
+          <th>Dia</th>
+          <th>Horário</th>
+             </tr>
+      </thead>
+          <tbody>
+             <tr>
+              <td>Manhã</td>
+              <td>7h ~ 12h</td>
+            </tr>
+            <tr>
+              <td>Tarde</td>
+              <td>12h ~ 18h</td>
+            </tr>
+            <tr>
+              <td>Noite</td>
+              <td>18h ~ 24h</td>
+            </tr>
+      </tbody>
+    </table>
+
+    <fieldset>
+          <legend>Qual seu personagem preferido?</legend>
+          <label for="radio-personagem"><input type="radio" name="personagem" value="Cuphead" id="radio-cuphead">Cuphead</label>
+          <label for="radio-personagem"><input type="radio" name="personagem" value="Mugman" id="radio-mugman">Mugman</label>
+          <label for="radio-personagem"><input type="radio" name="personagem" value="Ms. Chalice" id="radio-chalice" checked>Ms. Chalice</label>
+        </fieldset>
+        <fieldset>
+          <legend>Qual seu boss preferido?</legend>
+          <label for="radio-boss"><input type="radio" name="boss" value="Pânico Botânico" id="radio-cuphead">Pânico Botânico</label>
+          <label for="radio-boss"><input type="radio" name="boss" value="Meleca Melosa" id="radio-mugman">Meleca Melosa</label>
+          <label for="radio-boss"><input type="radio" name="boss" value="Geni é o Zeppelim" id="radio-chalice" checked>Geni é o Zeppelim</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Boate da Bolacha" id="radio-cuphead">Boate da Bolacha</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Fúria Floral" id="radio-cuphead">Fúria Floral</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Avanço Açucarado" id="radio-cuphead">Avanço Açucarado</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Circo Caótico" id="radio-cuphead">Circo Caótico</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Perigo na Pirâmide" id="radio-cuphead">Perigo na Pirâmide</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Algazarra Ardente" id="radio-cuphead">Algazarra Ardente</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Ação no Aviário" id="radio-cuphead">Ação no Aviário</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Combate na Colmeia" id="radio-cuphead">Combate na Colmeia</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Vida de Pirata" id="radio-cuphead">Vida de Pirata</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Ribomba na Ribalta" id="radio-cuphead">Ribomba na Ribalta</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Roedores Inglórios" id="radio-cuphead">Roedores Inglórios</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Farra na Sucata" id="radio-cuphead">Farra na Sucata</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Confusões em Alto Mar" id="radio-cuphead">Confusões em Alto Mar</label>
+           <label for="radio-boss"><input type="radio" name="boss" value="Fúria na Ferrovia" id="radio-cuphead">Fúria na Ferrovia</label>
+        </fieldset>
+        <h4>Menções honrosas:
+        King Dice e The Devil</h4>
+
+</main>
+
+     <input type="submit" value="Enviar formulário" class="enviar">
+    </form>
+
+    <footer>
+      <p class="copyright">&copy; Microsoft Studios - 2023</p>
+    </footer>
+
+
+
+
+</body>
+</html>
